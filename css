@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Raleway|Russo+One');
 
-.body {
-max-width: 400px;
+
+body {
+max-width: 800px;
 margin-right: auto;
 margin-left: auto;
 background-color: slateblue;
+color: white;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#501e9a+29,5920ca+43,612ad8+62,9e7ee8+100 */
+background: rgb(80,30,154); /* Old browsers */
+background: -moz-linear-gradient(top, rgb(80,30,154) 29%, rgb(89,32,202) 43%, rgb(97,42,216) 62%, rgb(158,126,232) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgb(80,30,154) 29%,rgb(89,32,202) 43%,rgb(97,42,216) 62%,rgb(158,126,232) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgb(80,30,154) 29%,rgb(89,32,202) 43%,rgb(97,42,216) 62%,rgb(158,126,232) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#501e9a', endColorstr='#9e7ee8',GradientType=0 ); /* IE6-9 */
+Color format:     Comments
+
 }
 
 
@@ -16,13 +26,58 @@ font-family: Raleway, sans-serif;
 font-size: 16px;
 margin-right: auto;
 margin-left: auto;
+padding-top: 20px;
 
 }
 
 .title {
 font-family: Russo One, sans-serif;
-font-size: 250px;
+font-size: 150px;
+text-align: center;
+
 
 
 }
+
+.info {
+font-family: raleway, sans-serif;
+text-align: right;
+
+
+}
+
+.artists {
+font-family: raleway, sans-serif;
+max-width: 800px;
+line-height: 0.7;
+
+
+
+}
+.artintro {
+font-family: raleway, sans-serif;
+padding-top: 100px;
+}
+
+.part4 {
+font-family: raleway, sans-serif;
+text-align: center;
+padding-top: 50px;
+font-size: 18px;
+}
+
+.contact {
+font-family: raleway, sans-serif;
+text-align: right;
+max-width: 900px;
+
+}
+
+img {
+float: right;
+height: 60px;
+width: 60px;
+}
+
+.artists sections
 
